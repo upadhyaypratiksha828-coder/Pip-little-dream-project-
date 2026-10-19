@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff8f1">
+  <meta name="description" content="Step into Pip's Little Dream Nursery: lullabies, nightlights, and tiny bedtime adventures.">
+  <title>Pip's Little Dream Nursery ✦</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fredoka:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="day-mode">
+  <svg class="svg-defs" width="0" height="0" aria-hidden="true" focusable="false"><defs><linearGradient id="cloudGrad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="120" y2="70"><stop offset="0" stop-color="#87ceeb"/><stop offset="1" stop-color="#2f6fe4"/></linearGradient></defs></svg>
+  <div class="dream-sky" aria-label="Interactive dreamy sky">
+    <button class="sky-cloud" style="left:-3%;top:7%;--s:1.0" aria-label="Touch cloud 1" type="button"><svg viewBox="0 0 120 70" aria-hidden="true"><g class="cloud-shape"><circle cx="34" cy="42" r="20"/><circle cx="58" cy="30" r="26"/><circle cx="86" cy="40" r="22"/><rect x="14" y="42" width="94" height="22" rx="11"/></g></svg></button>
+    <button class="sky-cloud" style="right:-4%;top:19%;--s:0.9" aria-label="Touch cloud 2" type="button"><svg viewBox="0 0 120 70" aria-hidden="true"><g class="cloud-shape"><circle cx="34" cy="42" r="20"/><circle cx="58" cy="30" r="26"/><circle cx="86" cy="40" r="22"/><rect x="14" y="42" width="94" height="22" rx="11"/></g></svg></button>
+    <button class="sky-cloud" style="left:1%;top:31%;--s:0.8" aria-label="Touch cloud 3" type="button"><svg viewBox="0 0 120 70" aria-hidden="true"><g class="cloud-shape"><circle cx="34" cy="42" r="20"/><circle cx="58" cy="30" r="26"/><circle cx="86" cy="40" r="22"/><rect x="14" y="42" width="94" height="22" rx="11"/></g></svg></button>
+    <button class="sky-cloud" style="right:-3%;top:43%;--s:1.0" aria-label="Touch cloud 4" type="button"><svg viewBox="0 0 120 70" aria-hidden="true"><g class="cloud-shape"><circle cx="34" cy="42" r="20"/><circle cx="58" cy="30" r="26"/><circle cx="86" cy="40" r="22"/><rect x="14" y="42" width="94" height="22" rx="11"/></g></svg></button>
+    <button class="sky-cloud" style="left:-4%;top:55%;--s:0.9" aria-label="Touch cloud 5" type="button"><svg viewBox="0 0 120 70" aria-hidden="true"><g class="cloud-shape"><circle cx="34" cy="42" r="20"/><circle cx="58" cy="30" r="26"/><circle cx="86" cy="40" r="22"/><rect x="14" y="42" width="94" height="22" rx="11"/></g></svg></button>
+    <button class="sky-cloud" style="right:0%;top:67%;--s:0.8" aria-label="Touch cloud 6" type="button"><svg viewBox="0 0 120 70" aria-hidden="true"><g class="cloud-shape"><circle cx="34" cy="42" r="20"/><circle cx="58" cy="30" r="26"/><circle cx="86" cy="40" r="22"/><rect x="14" y="42" width="94" height="22" rx="11"/></g></svg></button>
+    <button class="sky-cloud" style="left:2%;top:79%;--s:1.0" aria-label="Touch cloud 7" type="button"><svg viewBox="0 0 120 70" aria-hidden="true"><g class="cloud-shape"><circle cx="34" cy="42" r="20"/><circle cx="58" cy="30" r="26"/><circle cx="86" cy="40" r="22"/><rect x="14" y="42" width="94" height="22" rx="11"/></g></svg></button>
+    <button class="sky-cloud" style="right:-3%;top:89%;--s:0.85" aria-label="Touch cloud 8" type="button"><svg viewBox="0 0 120 70" aria-hidden="true"><g class="cloud-shape"><circle cx="34" cy="42" r="20"/><circle cx="58" cy="30" r="26"/><circle cx="86" cy="40" r="22"/><rect x="14" y="42" width="94" height="22" rx="11"/></g></svg></button>
+    <button class="sky-star" style="left:6%;top:4%;animation-delay:0.00s" aria-label="Make star sparkle" type="button">✦</button>
+    <button class="sky-star" style="right:34%;top:9%;animation-delay:0.55s" aria-label="Make star sparkle" type="button">✧</button>
+    <button class="sky-star" style="left:44%;top:14%;animation-delay:1.10s" aria-label="Make star sparkle" type="button">✦</button>
+    <button class="sky-star" style="right:5%;top:22%;animation-delay:1.65s" aria-label="Make star sparkle" type="button">✧</button>
+    <button class="sky-star" style="left:12%;top:27%;animation-delay:2.20s" aria-label="Make star sparkle" type="button">✦</button>
+    <button class="sky-star" style="right:26%;top:35%;animation-delay:0.00s" aria-label="Make star sparkle" type="button">✧</button>
+    <button class="sky-star" style="left:38%;top:41%;animation-delay:0.55s" aria-label="Make star sparkle" type="button">✦</button>
+    <button class="sky-star" style="right:8%;top:48%;animation-delay:1.10s" aria-label="Make star sparkle" type="button">✧</button>
+    <button class="sky-star" style="left:5%;top:53%;animation-delay:1.65s" aria-label="Make star sparkle" type="button">✦</button>
+    <button class="sky-star" style="right:40%;top:60%;animation-delay:2.20s" aria-label="Make star sparkle" type="button">✧</button>
+    <button class="sky-star" style="left:24%;top:66%;animation-delay:0.00s" aria-label="Make star sparkle" type="button">✦</button>
+    <button class="sky-star" style="right:7%;top:72%;animation-delay:0.55s" aria-label="Make star sparkle" type="button">✧</button>
+    <button class="sky-star" style="left:10%;top:77%;animation-delay:1.10s" aria-label="Make star sparkle" type="button">✦</button>
+    <button class="sky-star" style="right:30%;top:84%;animation-delay:1.65s" aria-label="Make star sparkle" type="button">✧</button>
+    <button class="sky-star" style="left:48%;top:90%;animation-delay:2.20s" aria-label="Make star sparkle" type="button">✦</button>
+    <button class="sky-star" style="right:12%;top:95%;animation-delay:0.00s" aria-label="Make star sparkle" type="button">✧</button>
+    <button class="sky-moon" id="sky-moon" aria-label="Poke the moon" type="button"><span class="m-eye l"></span><span class="m-eye r"></span><span class="m-cheek l"></span><span class="m-cheek r"></span><span class="m-mouth"></span><span class="m-tear"></span></button>
+    <i class="shooting s1"></i><i class="shooting s2"></i>
+  </div>
+  <div id="stardust" aria-hidden="true"></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="ambient-stars" aria-hidden="true"><span>✦</span><span>✧</span><span>✦</span><span>✧</span><span>✦</span><span>·</span><span>✧</span><span>✦</span></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Pip's Little Dream Nursery home"><span class="brand-moon">☾</span><span>Pip's <b>Little Dream Nursery</b></span></a>
+    <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation">☰</button>
+    <nav id="nav-links" class="nav-links" aria-label="Main navigation">
+      <a href="#meet-pip">Meet Pip</a><a href="#projects">Dream Projects</a><a href="#story">Pip's Story</a><a href="lullaby.html">Lullaby Lab</a><a href="nightlight.html">Night Light</a><a href="storybook.html">Story Book</a>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to night mode"><span id="theme-icon">☀</span> <span id="theme-label">Day mode</span></button><button id="sound-toggle" class="theme-toggle" type="button" aria-pressed="true" aria-label="Turn button sounds off">🔊 Sound on</button>
+    </nav>
+  </header>
+  <div class="retro-marquee" aria-hidden="true"><span>✦ Welcome to Pip's Little Dream Nursery ✦ Sweet dreams since 2026 ✦ Please keep your hands, feet and cuddly toys inside the cloud ✦ Best viewed in Dreamland ✦</span></div>
+
+  <main id="main">
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> A tiny world of wonder</p>
+        <h1>Meet Pip,<br><em>your little</em><br><span class="accent-text">Dream Engineer.</span></h1>
+        <p class="hero-description">A sleepy little dreamer with a big imagination, making bedtime feel softer, brighter, and full of magic.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#meet-pip">Meet Pip <span>↗</span></a><a class="button button-soft" href="#projects">Explore my dreams <span>✦</span></a></div>
+        <div class="hero-note"><span class="tiny-avatar">☁</span><span><strong>Made for little dreamers</strong><br>One gentle night at a time</span></div>
+      </div>
+      <div class="hero-art">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <span class="floating-star star-a">✦</span><span class="floating-star star-b">✧</span><span class="floating-star star-c">✦</span>
+        <span class="floating-moon">☾</span><span class="zzz z1">z</span><span class="zzz z2">Z</span><span class="zzz z3">z</span>
+        <div class="hero-frame-wrap">
+          <div class="hero-image-frame"><img src="assets/pip-portrait.jpg" alt="Pip, a sweet skull-faced baby in a starry nightcap, holding a glowing lantern and a tiny unicorn music box"></div>
+          <button class="sleepy-unicorn sleeping" id="sleepy-unicorn" type="button" aria-label="A tiny unicorn is sleeping. Tap to wake it up"><svg viewBox="0 0 120 90" aria-hidden="true" focusable="false"><defs><linearGradient id="maneGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f5a3c7"/><stop offset=".5" stop-color="#c7a8f0"/><stop offset="1" stop-color="#8fd0f5"/></linearGradient><linearGradient id="hornGrad" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#f6c85f"/><stop offset="1" stop-color="#fff0b8"/></linearGradient></defs><g class="u-all"><path class="u-tail" d="M28 46C6 38 2 64 14 78 14 64 22 60 32 56Z" fill="url(#maneGrad)"/><g class="u-leg u-bl"><rect x="30" y="56" width="9" height="26" rx="4.5"/><rect class="hoof" x="29" y="78" width="11" height="6" rx="3"/></g><g class="u-leg u-br"><rect x="42" y="56" width="9" height="26" rx="4.5"/><rect class="hoof" x="41" y="78" width="11" height="6" rx="3"/></g><ellipse class="u-body" cx="58" cy="48" rx="34" ry="19"/><g class="u-leg u-fl"><rect x="68" y="56" width="9" height="26" rx="4.5"/><rect class="hoof" x="67" y="78" width="11" height="6" rx="3"/></g><g class="u-leg u-fr"><rect x="80" y="56" width="9" height="26" rx="4.5"/><rect class="hoof" x="79" y="78" width="11" height="6" rx="3"/></g><g class="u-head"><path class="u-neck" d="M78 42C84 28 90 22 97 20L108 30C101 38 95 46 90 54Z"/><path d="M80 40C82 30 88 22 95 18 90 28 88 36 90 46Z" fill="url(#maneGrad)"/><ellipse class="u-face" cx="103" cy="30" rx="13" ry="11"/><ellipse class="u-face" cx="112" cy="35" rx="8" ry="6"/><path class="u-ear" d="M94 22L95 11 102 19Z"/><path d="M103 21L110 3 111 22Z" fill="url(#hornGrad)" stroke="#e5b24a" stroke-width=".8"/><path class="eye-closed" d="M100 29q3.2 3.4 6.4 0" fill="none" stroke="#6b4a62" stroke-width="1.8" stroke-linecap="round"/><circle class="eye-open" cx="103.5" cy="28.5" r="2.6" fill="#3b2a45"/><circle class="eye-open" cx="104.4" cy="27.6" r=".9" fill="#fff"/><circle cx="107" cy="35" r="2.6" fill="#f7a1b9" opacity=".8"/><circle cx="115" cy="34" r=".9" fill="#c98aa6"/></g></g></svg><span class="uni-zzz" aria-hidden="true"><b>z</b><b>Z</b><b>z</b></span></button>
+        </div>
+        <div class="floating-note note-card"><span class="note-icon">♫</span><span><b>Dream softly</b><small>You're safe here</small></span></div>
+        <div class="floating-note cloud-card"><span>☁</span><small>Sweet dreams<br>ahead</small></div>
+      </div>
+      <a class="scroll-cue" href="#meet-pip"><span></span> Scroll to dream</a>
+    </section>
+
+    <section class="intro section-wrap section-pad" id="meet-pip">
+      <div class="section-heading"><p class="eyebrow">A little hello</p><h2>Small skull. <em>Big dreams.</em></h2><p>Every nursery needs a little magic. Pip is here to make it.</p></div>
+      <div class="profile-grid">
+        <div class="profile-portrait card-surface"><span class="portrait-sticker sticker-top">✦ dreamer</span><img src="assets/pip-portrait.jpg" alt="Pip sitting on a fluffy cloud with a glowing lantern"><span class="portrait-sticker sticker-bottom">♡ pip ♡</span></div>
+        <div class="profile-info">
+          <p class="handwritten">Well, hello there!</p><h3>I'm Pip <span class="wave">✧</span></h3>
+          <p class="body-copy">I'm a gentle little night owl from the Midnight Nursery. I collect sleepy songs, make cozy lights, and dream up stories for every tiny creature who needs a little comfort.</p>
+          <div class="identity-list">
+            <div><span class="identity-icon">☾</span><span><small>MY ROLE</small><strong>Junior Dream Engineer</strong></span></div>
+            <div><span class="identity-icon">⌂</span><span><small>MY HOME</small><strong>The Midnight Nursery</strong></span></div>
+            <div><span class="identity-icon">♡</span><span><small>MY VIBE</small><strong>Sleepy, gentle & imaginative</strong></span></div>
+          </div>
+          <div class="skill-chips"><span>Dream design</span><span>Lullaby making</span><span>Nightlight crafting</span><span>Bedtime stories</span></div>
+          <p class="fun-fact"><span>✧</span> <b>Little secret:</b> Pip believes every star is a tiny wish waiting to happen.</p>
+        </div>
+      </div>
+
+      <div class="char-sheet pixel-box" id="character-sheet"><h3>📋 Pip's Character Sheet</h3><dl>
+        <div><dt>Species</dt><dd>Skull Baby (very friendly)</dd></div>
+        <div><dt>Looks</dt><dd>Round smooth skull face, glowing amber eyes, crooked smile, starry nightcap with a pink bow</dd></div>
+        <div><dt>Quirks</dt><dd>Yawns mid-sentence · counts stars instead of sheep · hums when thinking</dd></div>
+        <div><dt>Voice</dt><dd>Tiny, soft and sleepy: "goo-goo… sweet dreams"</dd></div>
+        <div><dt>Favourite lullaby</dt><dd>Moonbeam Lullaby ☾</dd></div></dl></div>
+    </section>
+
+    <section class="projects-section section-pad" id="projects">
+      <div class="section-wrap">
+        <div class="section-heading centered"><p class="eyebrow">Made in the nursery</p><h2>Little projects, <em>big magic.</em></h2><p>Three tiny creations to make your evening a little more lovely.</p></div>
+        <div class="projects-grid">
+          <article class="project-card project-lullaby">
+            <div class="project-art music-art"><img src="assets/pip-lullaby-box.png" alt="A pastel pink and cream music box topped with a tiny pastel unicorn"><span class="art-spark spark-one">✦</span><span class="art-spark spark-two">♫</span></div>
+            <div class="project-content"><div class="project-meta"><span>PROJECT 01</span><span class="project-symbol">♫</span></div><h3>Pip's Lullaby Lab</h3><p>A tiny music box for slow breaths, soft thoughts, and sleepy little hearts.</p>
+              <div class="audio-status" id="audio-status" aria-live="polite">The music box is resting.</div>
+              <div class="project-actions"><button class="button button-primary" id="play-lullaby" type="button">▶ Play lullaby</button><button class="icon-button" id="mute-lullaby" type="button" aria-pressed="false" aria-label="Mute lullaby sound">♫</button></div>
+              <div class="sound-bars" id="sound-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            </div>
+          </article>
+          <article class="project-card project-lights">
+            <div class="project-art lantern-art"><img src="assets/pip-dream-lantern.png" alt="A glowing cream night lantern with a sleepy moon, pastel clouds and stars"></div>
+            <div class="project-content"><div class="project-meta"><span>PROJECT 02</span><span class="project-symbol">✧</span></div><h3>Nightlight Collection</h3><p>Pick a little glow to match the mood of your dream tonight.</p>
+              <div class="light-options" role="group" aria-label="Choose a nightlight color"><button class="light-choice light-amber selected" data-light="amber" aria-pressed="true" type="button"><span></span>Honey</button><button class="light-choice light-rose" data-light="rose" aria-pressed="false" type="button"><span></span>Rose</button><button class="light-choice light-lilac" data-light="lilac" aria-pressed="false" type="button"><span></span>Moon</button></div>
+              <p class="light-message" id="light-message" aria-live="polite">Honey glow: warm and cozy.</p>
+            </div>
+          </article>
+          <article class="project-card project-storybook">
+            <div class="project-art book-art"><div class="storybook-illustration"><span class="book-moon">☾</span><span class="book-star">✦</span><span class="book-cloud">☁</span><span class="book-title">A Tiny<br>Dream for Pip</span></div><span class="book-flower">✿</span></div>
+            <div class="project-content"><div class="project-meta"><span>PROJECT 03</span><span class="project-symbol">❧</span></div><h3>The Bedtime Storybook</h3><p>Turn a page and follow Pip through one small, starry adventure.</p>
+              <div class="story-page" aria-live="polite"><span class="page-count" id="page-count">PAGE 1 OF 4</span><p id="storybook-text">One quiet evening, Pip found a little star that had forgotten how to shine.</p></div>
+              <div class="project-actions"><button class="button button-soft" id="prev-page" type="button" disabled>← Previous</button><button class="button button-primary" id="next-page" type="button">Next page →</button></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="story-section section-pad" id="story">
+      <div class="section-wrap">
+        <div class="section-heading centered"><p class="eyebrow">Once upon a moonbeam</p><h2>How Pip became a <em>Dream Engineer.</em></h2><p>A little story, one sleepy scene at a time. Keep scrolling to follow the stardust.</p></div>
+        <div class="story-timeline">
+          <article class="story-scene scene-one"><div class="scene-art"><span class="scene-moon">☾</span><span class="scene-cloud">☁</span><span class="scene-star">✦</span><span class="scene-number">01</span></div><div class="scene-copy"><span class="scene-label">A LITTLE DREAMER</span><h3>In the Midnight Nursery</h3><p>Far beyond the sleepy rooftops, Pip lived in a nursery where clouds were pillows and stars glimmered like tiny night-lights. Pip loved the quiet hour when the whole world began to yawn.</p></div></article>
+          <article class="story-scene scene-two"><div class="scene-art"><span class="scene-cloud">☁</span><span class="scene-heart">♡</span><span class="scene-star">✧</span><span class="scene-number">02</span></div><div class="scene-copy"><span class="scene-label">THE FIRST LITTLE DREAM</span><h3>A tiny creature needs a dream</h3><p>One night, a little cloud-creature couldn't settle down. Pip listened carefully and discovered that sometimes the best magic begins with noticing what a friend needs.</p></div></article>
+          <article class="story-scene scene-three"><div class="scene-art"><span class="music-note">♫</span><span class="music-note note-two">♪</span><span class="scene-star">✦</span><span class="scene-number">03</span></div><div class="scene-copy"><span class="scene-label">THE LULLABY EXPERIMENT</span><h3>A song made of stardust</h3><p>Pip tried tapping tiny notes on a music box. Plink, plonk, twinkle. Soon, a soft little melody filled the room, and the cloud-creature's worries drifted away like feathers.</p></div></article>
+          <article class="story-scene scene-four"><div class="scene-art"><span class="lamp-shape">☼</span><span class="scene-moon">☾</span><span class="scene-number">04</span></div><div class="scene-copy"><span class="scene-label">A LITTLE LIGHT OF COMFORT</span><h3>Glow, little lantern</h3><p>Next, Pip made a lantern with a honey-colored glow. It was never too bright, just enough to make shadows feel like friendly shapes and the nursery feel warm and safe.</p></div></article>
+          <article class="story-scene scene-five"><div class="scene-art"><span class="book-shape">▤</span><span class="scene-star">✧</span><span class="scene-number">05</span></div><div class="scene-copy"><span class="scene-label">THE DREAM ENGINEER</span><h3>Every little detail mattered</h3><p>With songs, lanterns, and stories, Pip learned how to build a bedtime that felt just right. Pip wasn't the biggest dreamer in the nursery, but had a heart full of thoughtful ideas.</p></div></article>
+          <article class="story-scene scene-six"><div class="scene-art"><span class="scene-moon">☾</span><span class="scene-cloud">☁</span><span class="scene-star">✦</span><span class="scene-number">06</span></div><div class="scene-copy"><span class="scene-label">DREAMS FOR EVERYONE</span><h3>And the stars whispered, “Goodnight”</h3><p>Now every creature in the Midnight Nursery has a place to rest, a gentle song to hear, and a story to carry into sleep. And Pip? Pip is already dreaming up tomorrow's little bit of magic.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad" id="growth"><div class="section-wrap"><div class="section-heading centered"><p class="eyebrow">Project 04</p><h2>Pip's <em>Growth Chart</em> 📏</h2><p>Growing one little dream at a time. Tap a rung.</p></div>
+      <div class="ladder pixel-box"><ol id="ladder"></ol><p class="ladder-card" id="ladder-card" aria-live="polite">Tap a level to learn what Pip can do.</p></div></div></section>
+
+    <section class="route-wrap" id="route"><div class="route-stick"><div class="section-heading centered"><p class="eyebrow">Dream Delivery Route</p><h2>Scroll to <em>deliver dreams</em> 🗺️</h2></div>
+      <svg id="route-svg" viewBox="0 0 800 420" role="img" aria-label="Pip flies over three rooftops delivering dreams"><rect width="800" height="420" rx="26" class="route-sky"/><g class="route-stars"><text x="90" y="60">✦</text><text x="330" y="40">✧</text><text x="640" y="70">✦</text><text x="520" y="140">✧</text></g><text x="700" y="70" font-size="46">☾</text>
+      <path id="route-bg" d="M60 330C200 250 170 120 340 170S520 290 610 160 720 90 750 110" fill="none" stroke="#ffffff33" stroke-width="4" stroke-dasharray="3 9"/><path id="route-path" d="M60 330C200 250 170 120 340 170S520 290 610 160 720 90 750 110" fill="none" stroke="#e8b85d" stroke-width="5" stroke-linecap="round"/>
+      <g id="houses"></g><g id="pip-dot"><circle r="15" fill="#fff8f1"/><text y="6" text-anchor="middle" font-size="18">☾</text></g></svg><p class="route-msg" id="route-msg" aria-live="polite">Pip is packing dreams…</p></div></section>
+
+    <section class="section-pad" id="toys"><div class="section-wrap"><div class="section-heading centered"><p class="eyebrow">Pip's Toy Corner</p><h2>Rattle &amp; <em>Block Toys</em> 🧸</h2><p id="toy-goal">Can you find the three glowing blocks?</p></div>
+      <div class="toy-box pixel-box" id="toy-box"><button class="block b-red" data-f="262" aria-label="Red block">A</button><button class="block b-blue" data-f="330" aria-label="Blue block">B</button><button class="block b-yellow" data-f="392" aria-label="Yellow block">C</button><button class="block b-pink" data-f="440" aria-label="Pink block">D</button><button class="block b-green" data-f="523" aria-label="Green block">E</button><button class="rattle" id="rattle" aria-label="Rattle">🪇</button></div><p class="toy-msg" id="toy-msg" aria-live="polite"></p><div class="center-btn"><button class="button button-soft" id="toy-again" type="button">New challenge ↻</button></div></div></section>
+
+    <section class="section-pad" id="guestbook"><div class="section-wrap"><div class="section-heading centered"><p class="eyebrow">Little Dreamers' Guestbook</p><h2>Leave a <em>tiny wish</em> for Pip 💌</h2><p>Demo guestbook: notes are saved only in this browser.</p></div>
+      <div class="scrap pixel-box"><div class="gb-form"><label for="gb-text" class="sr">Your wish</label><textarea id="gb-text" maxlength="80" placeholder="Sweet dreams, Pip!"></textarea><button class="button button-primary" id="gb-pin" type="button">Pin my note 📌</button></div><div class="notes" id="notes"></div></div></div></section>
+
+    <section class="dream-cta section-wrap">
+      <div class="cta-card"><span class="cta-moon">☾</span><span class="cta-star">✦</span><p class="eyebrow">A little note from Pip</p><h2>There is always room<br>for <em>one more dream.</em></h2><p>Take a deep breath, find your coziest corner, and keep a little wonder close.</p><a class="button button-primary" href="#home">Back to the nursery ↑</a></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-brand"><span>☾</span><div><strong>Pip's Little Dream Nursery</strong><small>Made with dreams and stardust by Pip.</small></div></div><nav aria-label="Footer navigation"><a href="#meet-pip">Meet Pip</a><a href="#projects">Projects</a><a href="#story">Story</a></nav><button id="secret-star" class="secret-star" type="button" aria-label="A little star">✦</button><div class="retro-row"><div class="odometer" aria-label="Visit counter"><span>You are visitor</span><b id="odo"></b><small>(this browser, demo)</small></div><span class="badge">🚧 Under construction</span><span class="badge">🌙 Best viewed in Dreamland</span><nav class="sitemap" aria-label="Sitemap"><a href="#growth">Growth</a><a href="#route">Route</a><a href="#toys">Toys</a><a href="#guestbook">Guestbook</a></nav></div><p class="footer-bottom">© Pip's tiny dream world · Made for gentle nights <span>♡</span></p></footer>
+  <div class="mini-pip" id="mini-pip" role="button" tabindex="0" aria-label="Mini Pip: tap to hear about Pip, drag to move">
+    <div class="mp-bubble" id="mp-bubble" aria-live="polite" hidden></div>
+    <div class="mp-body">
+      <span class="mp-pom"></span><span class="mp-cap"><i>✦</i></span><span class="mp-brim"></span>
+      <div class="mp-head">
+        <span class="mp-eye l"><b class="mp-pupil"></b></span><span class="mp-eye r"><b class="mp-pupil"></b></span>
+        <span class="mp-nose"></span><span class="mp-cheek l"></span><span class="mp-cheek r"></span><span class="mp-smile"></span>
+      </div>
+      <span class="mp-leg l"></span><span class="mp-leg r"></span>
+      <div class="mp-torso"><span class="mp-arm l"></span><span class="mp-arm r"></span><i class="mp-star">★</i></div>
+    </div>
+    <span class="mp-shadow"></span>
+  </div>
+  <div id="torch" aria-hidden="true"></div><button id="torch-toggle" class="theme-toggle" type="button" aria-pressed="true" hidden>🔦 Torch on</button>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="secret-message" id="secret-message" role="dialog" aria-modal="true" aria-labelledby="secret-title" hidden><div class="secret-card"><button id="close-secret" class="secret-close" aria-label="Close secret message" type="button">×</button><span class="secret-big-star">✧</span><p class="eyebrow">A secret from Pip</p><h2 id="secret-title">Psst... little dreamer!</h2><p>Every little dream begins with a little bit of magic. Sweet dreams! ♡</p><button id="secret-ok" class="button button-primary" type="button">Keep it safe ✦</button></div></div>
+</body>
+</html>
